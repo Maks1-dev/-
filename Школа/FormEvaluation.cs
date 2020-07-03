@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Школа
 {
-    public partial class Form1 : Form
+    public partial class FormEvaluation : Form
     {
-        public Form1()
+        public FormEvaluation()
         {
             InitializeComponent();
+        }
+
+        private void buttonAdd_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
